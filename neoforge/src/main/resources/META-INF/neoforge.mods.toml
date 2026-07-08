@@ -1,0 +1,43 @@
+modLoader = "javafml"
+license = "LGPL V2.1"
+issueTrackerURL = "https://github.com/Darkhax-Minecraft/CobClear/issues"
+
+[[mods]]
+modId = "cobclear"
+version = "26.1.2.0"
+displayName = "CobClear"
+updateJSONURL = "https://updates.blamejared.com/get?n=cobclear&gv=26.1.2&ml=neoforge"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/cobclear"
+logoFile = "logo_cobclear.png"
+logoBlur = false
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Tobias Ward, noobanidus"
+authors = "Darkhax"
+description = "Clear cobwebs faster than ever before!"
+
+[[mixins]]
+config = "cobclear.common.mixins.json"
+
+[[mixins]]
+config = "cobclear.neoforge.mixins.json"
+
+[[dependencies.cobclear]]
+modId = "minecraft"
+type = "required"
+versionRange = "26.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobclear]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.0.1-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobclear]]
+modId = "prickle"
+type = "required"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+

@@ -1,0 +1,44 @@
+{
+  "mod": {
+    "name": "CobClear",
+    "group": "net.darkhax.cobclear",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "cobclear",
+    "license": "LGPL V2.1",
+    "description": "Clear cobwebs faster than ever before!",
+    "repo": "https://github.com/Darkhax-Minecraft/CobClear",
+    "client": false
+  },
+  "curseforge": {
+    "slug": "cobclear",
+    "id": "947748"
+  },
+  "modrinth": {
+    "slug": "cobclear",
+    "id": "Oh4PFy7Y"
+  },
+  "dependencies": [
+    {
+      "name": "Prickle",
+      "type": "required",
+      "mod_id": {
+        "id": "prickle"
+      },
+      "maven": {
+        "common": "net.darkhax.pricklemc:prickle-common-26.1.2:26.1.2.5",
+        "neoforge": "net.darkhax.pricklemc:prickle-neoforge-26.1.2:26.1.2.5",
+        "fabric": "net.darkhax.pricklemc:prickle-fabric-26.1.2:26.1.2.5"
+      },
+      "curseforge": {
+        "slug": "prickle",
+        "id": "1023259"
+      },
+      "modrinth": {
+        "slug": "prickle",
+        "id": "aaRl8GiW"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "cobclear",
+  "version": "26.1.2.0",
+  "name": "CobClear",
+  "description": "Clear cobwebs faster than ever before!",
+  "authors": [
+    "Darkhax"
+  ],
+  "contributors": [
+    "This project is made possible with Patreon support from players like you. Thank you!",
+    "lothrazar, techsquirrel, Tobias Ward, noobanidus"
+  ],
+  "contact": {
+    "sources": "https://github.com/Darkhax-Minecraft/CobClear",
+    "issues": "https://github.com/Darkhax-Minecraft/CobClear/issues",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/cobclear"
+  },
+  "license": "LGPL V2.1",
+  "icon": "logo_cobclear.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.darkhax.cobclear.fabric.CobClearFabric"
+    ]
+  },
+  "mixins": [
+    "cobclear.common.mixins.json",
+    "cobclear.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "prickle": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/cobclear",
+        "modmenu.modrinth": "https://modrinth.com/mod/cobclear"
+      }
+    }
+  }
+}
